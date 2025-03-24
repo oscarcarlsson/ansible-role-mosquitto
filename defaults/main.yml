@@ -10,6 +10,8 @@ mosquitto_python_packages:
 
 mosquitto_user: mosquitto
 
+mosquitto_user_shell: "/usr/bin/nologin"
+
 mosquitto_group: mosquitto
 
 mosquitto_home: /var/lib/mosquitto

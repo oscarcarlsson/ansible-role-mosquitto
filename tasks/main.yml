@@ -25,7 +25,7 @@
     groups: "{{ mosquitto_add_groups | join(',') }}"
     append: true
     home: "{{ mosquitto_home }}"
-    shell: /usr/sbin/nologin
+    shell: "{{ mosquitto_user_shell }}"
     system: true
     state: present
   notify:
