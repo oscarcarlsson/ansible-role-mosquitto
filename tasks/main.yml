@@ -142,7 +142,7 @@
     dest: "{{ mosquitto_config_file }}"
     owner: "{{ mosquitto_config_user }}"
     group: "{{ mosquitto_config_group }}"
-    mode: 0644
+    mode: 0640
   notify:
     - Restart Mosquitto
 
